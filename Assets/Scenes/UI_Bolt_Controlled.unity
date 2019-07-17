@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 63289899}
   - component: {fileID: 63289898}
   m_Layer: 5
-  m_Name: Idle
+  m_Name: TlieHolder1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63289896}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
   m_Name: 
@@ -2153,12 +2153,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"allTiles","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tilesPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"tileScale2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sphereCollider","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"focusArea","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"allTiles","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tilesPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"tileScale2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sphereCollider","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"focusArea","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tile01","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tile02","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tile03","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tile04","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tile05","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tile06","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"tile07","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"an01","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"an02","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 660936529}
     - {fileID: 0}
     - {fileID: 762594383}
     - {fileID: 762594384}
+    - {fileID: 63289896}
+    - {fileID: 1901729770}
+    - {fileID: 1823864557}
+    - {fileID: 901019664}
+    - {fileID: 1147019936}
+    - {fileID: 615382677}
+    - {fileID: 1342148480}
+    - {fileID: 63289899}
+    - {fileID: 1901729772}
 --- !u!4 &1327952866
 Transform:
   m_ObjectHideFlags: 0
@@ -2887,7 +2896,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1253, y: 937}
+  m_SizeDelta: {x: 19.2, y: 10.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1901729770
 GameObject:
@@ -3030,7 +3039,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901729770}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
   m_Name: 
