@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: DestroyAfterSeconds_Tutorial
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":55.6444,"y":11.24445},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-240.0,"y":-120.0},"guid":"80a4ab33-ae49-418b-9a39-668d959c8235","$version":"A","$type":"Bolt.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-240.0,"y":120.0},"guid":"8c143616-3936-45ff-b2a7-9f5ea683fade","$version":"A","$type":"Bolt.Update"},{"chainable":false,"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object","System.Single"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null,"%t":{"$content":30.0,"$type":"System.Single"}},"position":{"x":120.0,"y":-120.0},"guid":"748083db-f239-49e5-b33a-9dd71a8db695","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"defaultValues":{},"position":{"x":-120.0,"y":0.0},"guid":"56fed19a-ac82-4859-8ac8-16a59e5e5617","$version":"A","$type":"Bolt.Self","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"d93d7c99-d855-4cdc-abb6-adf83f667bee","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"self","destinationUnit":{"$ref":"13"},"destinationKey":"%obj","guid":"d158aa1e-9747-4f22-a588-733ac656ab07","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
